@@ -1,0 +1,36 @@
+
+table{
+    width: 48vw;
+    white-space: nowrap;
+
+}
+
+td{
+    min-width: 12vw;
+    text-wrap: pretty;
+}
+
+
+.product-categories{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    
+}
+
+
+.product-categorie{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+.add-button{
+    margin: 0.5rem;
+    padding: 0.2rem;
+}
+
+.product-categorie:hover{
+    background-color: red;
+}

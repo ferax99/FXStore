@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF535F99-F730-3AD9-07E6-71071736FC6B" name="Categoria">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:39:07 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CategoriaId" id="2061279A-8D69-085A-FAEF-411057BF75CF">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:39:13 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F8FD5F22-4517-FC2F-0DC4-A4343575D731">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:41:05 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0BAA67C-53EA-B146-2FBA-57F70501F593" name="Key_1">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:40:48 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2061279A-8D69-085A-FAEF-411057BF75CF</newElementsIDs>
+<usedAttributes>
+<attributeRef>2061279A-8D69-085A-FAEF-411057BF75CF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="02E0CAB1-1125-52CC-D29E-805503B37211">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 13:56:33 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<sourcePk>151202F9-63E9-D59A-4E89-6537540A9A4B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>usa</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B75DC44A-1473-FD4E-BF24-0085589DC619</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2BAC92F2-E26D-7A2E-0C96-29410664C747</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

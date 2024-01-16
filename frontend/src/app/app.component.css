@@ -1,0 +1,34 @@
+
+.home_page{
+
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    width: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+
+}
+.title h1{
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+}
+.logo{
+    height: 5rem;
+    width: 5rem;
+}
+p{
+    color: rgb(177, 169, 169);
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-decoration: overline;
+
+}

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B5BC7E63-7056-6532-CF39-97B21A9B050C" mainViewID="6B14746A-2C4D-F436-64C6-932B17D4E64D">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:33:50 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

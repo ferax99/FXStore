@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B75DC44A-1473-FD4E-BF24-0085589DC619" name="Producto">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:34:53 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductoId" id="D02D28F2-70BC-A4C5-EE24-37DF8087F6C3">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:35:24 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="556BADD2-67F9-93C2-B8B6-729182BB215B">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:36:12 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="8AC6641B-398E-346C-D758-45C9CD628B82">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:36:37 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imagen" id="45A97000-825A-1D99-9FBD-8B1EB7F88C99">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:38:17 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="B17A96AE-DF7F-04FC-4BDD-E1EA7164CD33">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:38:42 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="151202F9-63E9-D59A-4E89-6537540A9A4B" name="Key_1">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:41:45 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<engineerTo>
+<item key="B0ED701B-68F3-6F46-B831-3422948C340B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D02D28F2-70BC-A4C5-EE24-37DF8087F6C3</newElementsIDs>
+<usedAttributes>
+<attributeRef>D02D28F2-70BC-A4C5-EE24-37DF8087F6C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

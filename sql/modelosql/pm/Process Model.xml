@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C5D3F442-E1A0-B899-EC5E-503544A4665E">
+<createdBy>ferfa</createdBy>
+<createdTime>2024-01-12 19:33:50 UTC</createdTime>
+<ownerDesignName>modelosql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

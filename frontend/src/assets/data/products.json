@@ -1,0 +1,65 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Smartphone",
+        "price": 599.99,
+        "categories": ["electronics", "mobile_phones", "gadgets"]
+      },
+      {
+        "id": 2,
+        "name": "Leather Jacket",
+        "price": 129.99,
+        "categories": ["clothing"]
+      },
+      {
+        "id": 3,
+        "name": "Throw Pillow Set",
+        "price": 34.95,
+        "categories": ["home_decor", "bedding", "decorative_accessories"]
+      },
+      {
+        "id": 4,
+        "name": "Hiking Boots",
+        "price": 89.99,
+        "categories": [ "hiking"]
+      },
+      {
+        "id": 5,
+        "name": "Bestseller Novel",
+        "price": 19.99,
+        "categories": ["books", "fiction"]
+      },
+      {
+        "id": 6,
+        "name": "Skin Care Kit",
+        "price": 59.99,
+        "categories": ["health_beauty", "skincare"]
+      },
+      {
+        "id": 7,
+        "name": "Board Game Set",
+        "price": 39.99,
+        "categories": ["toys_games",  "family"]
+      },
+      {
+        "id": 8,
+        "name": "Car Cleaning Kit",
+        "price": 24.99,
+        "categories": ["cleaning"]
+      },
+      {
+        "id": 9,
+        "name": "Pet Grooming Kit",
+        "price": 44.95,
+        "categories": ["pet_supplies"]
+      },
+      {
+        "id": 10,
+        "name": "Organic Snack Box",
+        "price": 15.99,
+        "categories": ["food_grocery", "organic"]
+      }
+    ]
+  }
+  
